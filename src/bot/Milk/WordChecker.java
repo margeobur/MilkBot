@@ -27,7 +27,7 @@ public class WordChecker {
 		}
 		return word_found;
 	}
-	
+
 	// Replacement for check()
 	public List<String> checkForWords(String sentence) {
 		List<String> tokensFound = new ArrayList<String>();
@@ -57,7 +57,7 @@ public class WordChecker {
 			_words_to_check_for.remove(word);
 		}
 	}
-	
+
 	@Deprecated
 	private String checkWord(String word_being_checked) {
 		char[] current_word = word_being_checked.toCharArray();
